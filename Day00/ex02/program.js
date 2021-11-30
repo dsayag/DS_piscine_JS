@@ -7,7 +7,8 @@ function threeLargestNumbers(array) {
     for(let i = 0 ; i < 3; i++){
         newArray.push(array[i]);
     }
-    return newArray.reverse();
+    newArray.reverse();
+    console.log(newArray);
 }
 
-console.log(threeLargestNumbers(array));
+let result = threeLargestNumbers(array);
