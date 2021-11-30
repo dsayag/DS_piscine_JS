@@ -1,4 +1,4 @@
-let array = [2, 5, 3, 4, 5, 7];
+let array = [2, 4, 1, 7, 1, 7];
 
 function firstDuplicateValue(array) {
     for (let i = 0; i < array.length; i++) {
@@ -16,3 +16,7 @@ console.log(result);
 
 // Merci de ne pas effacer la ligne en dessous.
 // exports.firstDuplicateValue =  firstDuplicateValue;
+
+//////////////////////////////////////////////////////////////////////////////
+// Vérifier le 1er de tous les indices et pas seulement juste le 1er indice //
+//////////////////////////////////////////////////////////////////////////////
