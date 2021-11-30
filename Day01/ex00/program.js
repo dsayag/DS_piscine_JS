@@ -5,18 +5,18 @@ function tabTriCarre(array) {
     let calcul;
     let newArray = [];
     array.sort(function (a, b) { return a - b });
-
+    
     for (let i = 0; i < array.length; i++) {
         calcul = array[i] * array[i];
-        newArray.push(calcul);
+        newArray.push(calcul);                
     }
 
     console.log(newArray);
 
-
+    
     if (array == ![]) {
-        console.log('Le tableau est vide');
-    } else {
+        console.log('Le tableau est vide');         
+    } else {        
         console.log("Le tableau n'est pas vide, ses valeurs sont : " + newArray);
     }
 
