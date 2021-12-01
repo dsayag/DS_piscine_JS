@@ -1,4 +1,4 @@
-let coins = [5, 7, 1, 1, 2, 3, 22]
+let coins = [5, 7, 1, 1, 2, 3, 22];
 
 function pocketMoney(coins) {
     let calcul = 0;
